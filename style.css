@@ -1,0 +1,35 @@
+.contents{
+    font-size: 20px;
+    border: solid 3px rgb(238,204,204);
+    flex-basis: 25%;
+    padding: 10px 15px;
+    max-width: 20px 0;
+    margin-left: auto;
+    margin-right: auto;
+    h2{font-size: 25px;
+        border-bottom: dotted 3px rgb(236,122,122);
+    h2:before{
+            content: "●";
+            color: rgb(97,206,249);
+    }
+    p:first-letter{
+            font-weight: bold;
+            color: rgb(97,206,249);
+         }
+        }
+    img{
+        margin: 10px 0;
+        width: 70%;
+    }
+    }
+#parent{
+    margin: auto 10px 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+h1{
+    margin-bottom: 20px;
+    background-color: rgb(224,79,79);
+    text-align: center;
+}
